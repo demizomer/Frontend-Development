@@ -1,0 +1,89 @@
+h1 {
+    color: chartreuse;
+    text-shadow:
+        0 1px 0px blue,
+        1px 0 0px purple,
+        1px 2px 1px blue,
+        2px 1px 1px purple,
+        2px 3px 2px blue,
+        3px 2px 2px purple,
+        3px 4px 2px blue,
+        4px 3px 3px purple,
+        4px 5px 3px blue,
+        5px 4px 2px purple,
+        5px 6px 2px blue,
+        6px 5px 2px purple,
+        6px 7px 1px blue,
+        7px 6px 1px purple,
+        7px 8px 0px blue,
+        8px 7px 0px purple;
+}
+
+h3 {
+    text-shadow: 2px 1px 8px purple,
+        1px 1px 1px 
+}
+
+h2 {
+    color: chartreuse;
+    text-shadow:
+        0 1px 0px blue,
+        1px 0 0px purple,
+        1px 2px 1px blue,
+        2px 1px 1px purple,
+        2px 3px 2px blue,
+        3px 2px 2px purple,
+        3px 4px 2px blue,
+        4px 3px 3px purple,
+        4px 5px 3px blue,
+        5px 4px 2px purple,
+        5px 6px 2px blue,
+        6px 5px 2px purple,
+        6px 7px 1px blue,
+        7px 6px 1px purple,
+        7px 8px 0px blue,
+        8px 7px 0px purple;
+}
+
+.beroepen {
+    border: 1px solid black;
+    transform: rotateY(30deg);
+    animation: two 4s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes two {
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(50deg);
+    }
+}
+
+.link:hover {
+    color:aqua;
+    cursor:pointer;
+}
+
+header, section {
+    border: 2px dotted black;
+    border-radius: 20px / 10%;
+    margin: 10px;
+    padding: 10px;
+    background-color: dodgerblue;
+    box-shadow: 10px purple;
+    transition: background-color 1s ease;
+}
+
+ header:hover, section:hover {
+    background-color: azure;
+}
+
+.header, .section {
+    background: dodgerblue;
+    -webkit-transition: background-color 3s ease-out;
+        -moz-transition: background-color 3s ease-out;
+    -o-transition: background-color 3s ease-out;
+    transition: background-color 3s ease-out;
+}
